@@ -5246,6 +5246,15 @@ body.loaded {
   margin: 0;
 }
 
+@media (max-width: 767px) {
+  .rex-fact-card {
+    margin-bottom: 16px;
+  }
+  .rex-fact-card.mt-30 {
+    margin-top: 0 !important;
+  }
+}
+
 .brands-carsouel {
   overflow: hidden;
 }
