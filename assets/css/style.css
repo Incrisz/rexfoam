@@ -835,7 +835,7 @@ img {
   cursor: pointer;
   display: block;
   border-radius: 50px;
-  z-index: 100;
+  z-index: 10000;
   opacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(20px);
@@ -844,7 +844,6 @@ img {
   -webkit-transition: all 400ms linear;
   -o-transition: all 400ms linear;
   transition: all 400ms linear;
-  mix-blend-mode: difference;
 }
 
 .progress-wrap.active-progress {
