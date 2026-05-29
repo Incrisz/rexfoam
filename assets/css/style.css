@@ -22,6 +22,10 @@
   list-style: none;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   color: #1d1d1d;
   background-color: #f1f3f5;
@@ -29,6 +33,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-family: 'Sora', sans-serif;
   overflow-x: hidden !important;
+  position: relative;
 }
 
 body.noise-img {
@@ -969,6 +974,7 @@ img {
 .main-marq {
   position: relative;
   padding: 0;
+  overflow: hidden;
 }
 
 .main-marq:after {
